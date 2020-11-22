@@ -10,11 +10,20 @@ raspberry pi-3b+.
 ## Step to download and install to new linux backport
 
   sudo apt install raspberrypi-kernel-headers
+  
   sudo apt-get install libncurses5-dev libncursesw5-dev
+  
   sudo apt-get install flex bison
+  
   wget https://cdn.kernel.org/pub/linux/kernel/projects/backports/stable/v5.4.56/backports-5.4.56-1.tar.xz
+  
   tar xf backports-5.4.56-1.tar.xz
+  
   cd backports-5.4.56-1
+  
   sudo make
+  
   sudo make install
+  
   sudo reboot
+  
