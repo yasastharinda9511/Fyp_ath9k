@@ -31,5 +31,11 @@ raspberry pi-3b+.
   
 ## Injected Beacon frame path
 
+Following diagram show how crafted beacon frames are transmited 
+from ```mac80211```--> ```ath9k_htc```---> ```usb```. We did two majaor changes
+
+1.  Make SKB priority in mac80211 tx.c inside ```ieee80211_monitor_start_xmit``` function
+2.  Change the data path of the management frame inside the ath9k ```ath9k_tx_start``` function
+
 ![image](https://user-images.githubusercontent.com/37435024/99914136-47667600-2d21-11eb-9f74-9490645e74ac.jpeg)
 
