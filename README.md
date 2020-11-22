@@ -7,23 +7,25 @@ qos for the mangement frames. The main changes are done inside the mac80211 tx.c
 ath9k_htc_txrx.c located inside the ath9k driver. We used the linux backport 5.4.56-1 for this linux driver customiation amd 
 raspberry pi-3b+.
 
-## Step to download and install to new linux backport
-
-  sudo apt install raspberrypi-kernel-headers
+## Step to download and install to linux backport (5.4.56-1)
   
-  sudo apt-get install libncurses5-dev libncursesw5-dev
+  ```sudo apt-get update```
   
-  sudo apt-get install flex bison
+  ```sudo apt install raspberrypi-kernel-headers``` // to install the linuxkernel headers for the raspberry pi
   
-  wget https://cdn.kernel.org/pub/linux/kernel/projects/backports/stable/v5.4.56/backports-5.4.56-1.tar.xz
+  ```sudo apt-get install libncurses5-dev libncursesw5-dev```
   
-  tar xf backports-5.4.56-1.tar.xz
+  ```sudo apt-get install flex bison```
   
-  cd backports-5.4.56-1
+  ```wget https://cdn.kernel.org/pub/linux/kernel/projects/backports/stable/v5.4.56/backports-5.4.56-1.tar.xz```
   
-  sudo make
+  ```tar xf backports-5.4.56-1.tar.xz```
   
-  sudo make install
+  ```cd backports-5.4.56-1```
   
-  sudo reboot
+  ```sudo make```
+  
+  ```sudo make install```
+  
+  ```sudo reboot```
   
