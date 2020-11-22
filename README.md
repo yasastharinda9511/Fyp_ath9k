@@ -7,7 +7,7 @@ qos for the mangement frames. The main changes are done inside the mac80211 tx.c
 ath9k_htc_txrx.c located inside the ath9k driver. We used the linux backport 5.4.56-1 for this linux driver customiation amd 
 raspberry pi-3b+.
 
-## Step to download and install to linux backport (5.4.56-1)
+## Step to download and install linux backport (5.4.56-1)
   
   ```sudo apt-get update```
   
