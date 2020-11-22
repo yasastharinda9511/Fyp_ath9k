@@ -31,6 +31,5 @@ raspberry pi-3b+.
   
 ## Injected Beacon frame path
 
-![image](https://user-images.githubusercontent.com/37435024/99913935-66b0d380-2d20-11eb-958a-65dcb9386acc.jpeg)
 ![image](https://user-images.githubusercontent.com/37435024/99914136-47667600-2d21-11eb-9f74-9490645e74ac.jpeg)
 
