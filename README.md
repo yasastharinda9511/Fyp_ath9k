@@ -51,6 +51,8 @@ Type following command. Then blue screen will pop-up like below figure,
 
 ```Wireless LAN``` ---> ```Atheros ath9k_htc debugging```/ ``` Atheros ath9k debugging```
 
+![Screenshot (561)](https://user-images.githubusercontent.com/37435024/99942561-de6d1580-2d95-11eb-9a6b-127bc261c683.png)
+
 
 
      
