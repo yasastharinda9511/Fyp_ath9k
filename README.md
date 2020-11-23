@@ -45,8 +45,14 @@ from ```mac80211```--> ```ath9k_htc```---> ```usb```. We did two majaor changes
 
 Type following command. Then blue screen will pop-up like below figure,
     
-    
-     ``` sudo make menuconfig```
+``` sudo make menuconfig```
+
+![Screenshot (558)](https://user-images.githubusercontent.com/37435024/99941881-c47f0300-2d94-11eb-85fd-ea4b6abd28ff.png)
+
+```Wireless LAN``` ---> ```Atheros ath9k_htc debugging```/ ``` Atheros ath9k debugging```
+
+
+
      
      
      
