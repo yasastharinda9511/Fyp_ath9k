@@ -53,6 +53,8 @@ Type following command. Then blue screen will pop-up like below figure,
 
 ![Screenshot (561)](https://user-images.githubusercontent.com/37435024/99942561-de6d1580-2d95-11eb-9a6b-127bc261c683.png)
 
+![Screenshot (562)](https://user-images.githubusercontent.com/37435024/99942834-4d4a6e80-2d96-11eb-8a0c-15948ff98320.png)
+
 
 
      
