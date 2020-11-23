@@ -44,7 +44,12 @@ from ```mac80211```--> ```ath9k_htc```---> ```usb```. We did two majaor changes
 ## Enabing the debug mode of the of wireless devices
 
 Type following command. Then blue screen will pop-up like below figure,
-    ``` sudo make menuconfig```
+    
+    
+     ``` sudo make menuconfig```
+     
+     
+     
     
  
 
