@@ -8,6 +8,8 @@ ath9k_htc_txrx.c located inside the ath9k driver. We used the linux backport 5.4
 raspberry pi-3b+.
 
 ## Step to download and install linux backport (5.4.56-1)
+
+Following steps needs to be followed, 
   
   ```sudo apt-get update```
   
@@ -38,4 +40,13 @@ from ```mac80211```--> ```ath9k_htc```---> ```usb```. We did two majaor changes
 2.  Change the data path of the management frame inside the ath9k ```ath9k_tx_start``` function
 
 ![image](https://user-images.githubusercontent.com/37435024/99914136-47667600-2d21-11eb-9f74-9490645e74ac.jpeg)
+
+## Enabing the debug mode of the of wireless devices
+
+Type following command. Then blue screen will pop-up like below figure,
+    ``` sudo make menuconfig```
+    
+ 
+
+
 
